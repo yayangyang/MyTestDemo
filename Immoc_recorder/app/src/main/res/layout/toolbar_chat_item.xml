@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/fanhui"
+        android:layout_width="@dimen/return_btn_width"
+        android:layout_height="@dimen/return_btn_height"
+        android:src="@drawable/tab_find_frd_normal"
+        android:background="@drawable/return_btn"
+        android:clickable="true"
+        android:layout_marginLeft="@dimen/return_btn_left"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一家人"
+        android:textColor="#fff"
+        android:layout_marginLeft="@dimen/return_btn_left_left"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(4)"
+        android:textColor="#fff"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="@dimen/return_btn_width"
+        android:layout_height="@dimen/return_btn_height"
+        android:src="@drawable/tab_find_frd_normal"
+        android:visibility="gone"/>
+
+</LinearLayout>

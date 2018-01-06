@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--自定义-->
+    <color name="return_btn_pressed">#5000</color>
+    <color name="chatto_bg_pressed">#5000</color>
+    <color name="view">#5000</color>
+    <color name="line_grey">#5000</color>
+    <color name="discovery_line">#1000</color>
+    <color name="chatto_bg_normal">#0000</color>
+    <color name="white">#fff</color>
+    <color name="search_hint">#50f0</color>
+    <color name="determine">#0ed851</color>
+    <color name="determine_pressed">#9abcb0</color>
+    <color name="determine_pressed_color">#5000</color>
+</resources>

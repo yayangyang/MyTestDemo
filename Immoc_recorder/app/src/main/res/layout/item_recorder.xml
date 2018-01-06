@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/icon_self"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon"/>
+
+        <LinearLayout
+            android:id="@+id/recorder_length_self"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/icon_self"
+            android:background="@drawable/chatto_bg_focused">
+            <View
+                android:id="@+id/recorder_anim_self"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/adj" />
+
+            <TextView
+                android:id="@+id/wz_self"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/recorder_anim_self"
+                android:layout_marginRight="3dp"
+                android:text="ss"
+                android:textColor="#777"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"/>
+
+            <ImageView
+                android:id="@+id/picture_self"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@id/wz_self"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/ic_launcher"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/recorder_time_self"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/recorder_length_self"
+            android:text="ss"
+            android:layout_marginRight="3dp"
+            android:textColor="#777"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/icon_others"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon"/>
+
+        <LinearLayout
+            android:id="@+id/recorder_length_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/icon_others"
+            android:background="@drawable/chatto_bg_focused_others">
+            <View
+                android:id="@+id/recorder_anim_others"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/adj_others" />
+
+            <TextView
+                android:id="@+id/wz_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/recorder_anim_others"
+                android:layout_marginRight="3dp"
+                android:text="ss"
+                android:textColor="#777"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"/>
+
+            <ImageView
+                android:id="@+id/picture_others"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/wz_others"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/ic_launcher"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/recorder_time_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/recorder_length_others"
+            android:text="ss"
+            android:layout_marginRight="3dp"
+            android:textColor="#777"/>
+
+    </RelativeLayout>
+</LinearLayout>
+

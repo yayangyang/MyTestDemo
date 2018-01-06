@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="return_btn_width">38dp</dimen>
+    <dimen name="return_btn_height">28dp</dimen>
+    <dimen name="return_btn_left">15dp</dimen>
+    <dimen name="return_btn_left_left">25dp</dimen>
+
+</resources>

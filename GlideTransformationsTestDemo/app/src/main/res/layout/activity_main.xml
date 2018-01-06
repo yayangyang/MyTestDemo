@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/frameLyaout"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/iv_touch_bg_selector"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"/>
+
+        <!--Glide的tranform应该是画圆角后再加载到图片上,-->
+        <!--加上android:scaleType="centerCrop"如果尺寸比例不和会裁切,比例误差越大圆角会被裁减掉越多-->
+        <!--centerCrop的理解应该是从中心点开始方法,就是设置当两端都填满时的图像-->
+        <!--ImageView没限制大小应该会填满整个屏幕-->
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLyaout02"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/iv_touch_bg_selector"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp">
+
+        <ImageView
+            android:id="@+id/iv02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLyaout03"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/iv_touch_bg_selector"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp">
+
+        <ImageView
+            android:id="@+id/iv03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"/>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <mobiesafe74.itheima.com.newcalendar.NewCalendar
+        android:id="@+id/newCalendar"
+        xmlns:NewCalendarNs="http://schemas.android.com/apk/res/mobiesafe74.itheima.com.newcalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        app:dateFormat="MMMM yyyy">
+    </mobiesafe74.itheima.com.newcalendar.NewCalendar>
+
+</RelativeLayout>

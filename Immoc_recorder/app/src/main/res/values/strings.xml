@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Immoc_recorder</string>
+    <string name="str_recorder_normal">按住说话</string>
+    <string name="str_recorder_recording">松开结束</string>
+    <string name="str_recorder_want_cancel">松开手指,取消发送</string>
+    <string name="username">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="error_invalid_password">密码需大于四位</string>
+    <string name="error_field_required">用户名不能为空</string>
+    <string name="action_sign_in">注册并登录</string>
+</resources>

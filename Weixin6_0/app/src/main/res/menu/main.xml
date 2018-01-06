@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="ifRoom"
+        android:title="颜色">
+        <menu >
+            <item
+                android:id="@+id/color_red"
+                android:title="红色"/>
+            <item
+                android:id="@+id/color_green"
+                android:title="绿色"/>
+            <item
+                android:id="@+id/color_blue"
+                android:title="蓝色"/>
+            <item
+                android:id="@+id/color_gray"
+                android:title="灰色"/>
+        </menu>
+    </item>
+
+    <item
+        app:showAsAction="ifRoom"
+        android:title="搜索">
+    </item>
+
+</menu>

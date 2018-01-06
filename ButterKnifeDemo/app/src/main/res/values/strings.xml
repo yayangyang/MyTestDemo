@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ButterKnifeDemo</string>
+
+    <string-array name="city">
+        <item>北京市</item>
+        <item>天津市</item>
+        <item>哈尔滨市</item>
+        <item>大连市</item>
+        <item>香港市</item>
+    </string-array>
+</resources>

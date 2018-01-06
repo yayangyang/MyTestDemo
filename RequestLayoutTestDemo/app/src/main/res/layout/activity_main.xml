@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yayangyang.requestlayouttestdemo.MyRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yayangyang.requestlayouttestdemo.MyLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.yayangyang.requestlayouttestdemo.MyTextView
+            android:id="@+id/tv"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="aaaaaa"
+            android:maxEms="2"/>
+
+    </com.yayangyang.requestlayouttestdemo.MyLinearLayout>
+
+</com.yayangyang.requestlayouttestdemo.MyRelativeLayout>

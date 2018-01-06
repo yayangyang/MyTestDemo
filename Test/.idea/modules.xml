@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DrawLayout/DrawLayout.iml" filepath="$PROJECT_DIR$/DrawLayout/DrawLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test.iml" filepath="$PROJECT_DIR$/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardview/cardview.iml" filepath="$PROJECT_DIR$/cardview/cardview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_recyclerview/demo_recyclerview.iml" filepath="$PROJECT_DIR$/demo_recyclerview/demo_recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatingactionbutton/floatingactionbutton.iml" filepath="$PROJECT_DIR$/floatingactionbutton/floatingactionbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layer-list/layer-list.iml" filepath="$PROJECT_DIR$/layer-list/layer-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigationview/navigationview.iml" filepath="$PROJECT_DIR$/navigationview/navigationview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview/recyclerview.iml" filepath="$PROJECT_DIR$/recyclerview/recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingtablayout/slidingtablayout.iml" filepath="$PROJECT_DIR$/slidingtablayout/slidingtablayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swiperefreshlayout/swiperefreshlayout.iml" filepath="$PROJECT_DIR$/swiperefreshlayout/swiperefreshlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swiperefreshlayoutdemo02/swiperefreshlayoutdemo02.iml" filepath="$PROJECT_DIR$/swiperefreshlayoutdemo02/swiperefreshlayoutdemo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webview/webview.iml" filepath="$PROJECT_DIR$/webview/webview.iml" />
+    </modules>
+  </component>
+</project>

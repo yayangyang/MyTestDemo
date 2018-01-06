@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+        </android.support.v7.widget.Toolbar>
+
+        <include
+            layout="@layout/toolbar_main_item"/>
+
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/wet_chat"
+            style="@style/Theme_RadioButton"
+            android:drawableTop="@drawable/tab_weixin_normal"
+            android:text="微信"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/address_book"
+            style="@style/Theme_RadioButton"
+            android:drawableTop="@drawable/tab_weixin_normal"
+            android:text="通讯录"/>
+
+        <RadioButton
+            android:id="@+id/discovery"
+            style="@style/Theme_RadioButton"
+            android:drawableTop="@drawable/tab_weixin_normal"
+            android:text="发现"/>
+
+        <RadioButton
+            android:id="@+id/myself"
+            style="@style/Theme_RadioButton"
+            android:drawableTop="@drawable/tab_weixin_normal"
+            android:text="我"/>
+
+    </RadioGroup>
+
+</LinearLayout>

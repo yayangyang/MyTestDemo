@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+
+        <!-- 状态栏颜色，会被statusBarColor效果覆盖-->
+        <item name="android:colorPrimaryDark">@color/status_red</item>
+        <!-- 状态栏颜色，继承自colorPrimaryDark -->
+        <item name="android:statusBarColor">@color/status_red</item>
+        <!-- actionBar颜色 -->
+        <item name="android:colorPrimary">@color/action_red</item>
+        <!-- 背景颜色 -->
+        <item name="android:windowBackground">@color/window_bg_red</item>
+        <!-- 底部栏颜色 -->
+        <item name="android:navigationBarColor">@color/navigation_red</item>
+    </style>
+
+</resources>

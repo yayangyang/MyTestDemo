@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--标题栏的颜色-->
+    <color name="colorPrimary">#3B99DF</color>
+    <!--状态栏的颜色-->
+    <color name="colorPrimaryDark">#3B90DF</color>
+    <!--控件的选中颜色，即checked或selected状态的颜色。-->
+    <color name="colorAccent">#3B99DF</color>
+
+
+    <!--my-->
+    <color name="bg_transparent">#55000000</color>
+
+    <!--IamgeView背景色-->
+    <color name="iv_bg">#00ffffff</color>
+    <!--IamgeView触摸背景色-->
+    <color name="iv_touch_bg">@color/bg_transparent</color>
+</resources>

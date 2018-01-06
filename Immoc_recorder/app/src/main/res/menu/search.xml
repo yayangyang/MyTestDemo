@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add"
+        android:title="添加"
+        android:icon="@drawable/actionbar_add_icon"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/setMark"
+                android:title="设置备注及标签"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/markFriend"
+                android:title="标注星标朋友"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/setFriendPlacePermission"
+                android:title="设置朋友圈权限"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/sendCard"
+                android:title="发送该名片"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/complaint"
+                android:title="投诉"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/addToBlackMenu"
+                android:title="加入黑名单"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/remove"
+                android:title="删除"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/addToDesktop"
+                android:title="添加到桌面"
+                android:icon="@drawable/tab_weixin_normal" />
+        </menu>
+
+    </item>
+
+</menu>

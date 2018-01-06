@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/addNewFriend"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:drawableStart="@drawable/actionbar_search_icon"
+                    android:hint="搜索" />
+                <mobiesafe74.itheima.com.immoc_recorder.view.QuickindexBar
+                    android:id="@+id/quickIndexBar"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"/>
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/currentWord"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/shape_oval"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="70sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sousuo"
+        android:title="搜索"
+        android:icon="@drawable/actionbar_search_icon"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/add"
+        android:title="添加"
+        android:icon="@drawable/actionbar_add_icon"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/groupchat"
+                android:title="发起群聊"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/addfriend"
+                android:title="添加朋友"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/scan"
+                android:title="扫一扫"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/pay"
+                android:title="收付款"
+                android:icon="@drawable/tab_weixin_normal" />
+
+            <item
+                android:id="@+id/help"
+                android:title="帮助与反馈"
+                android:icon="@drawable/tab_weixin_normal" />
+        </menu>
+
+    </item>
+
+    <!--<item-->
+        <!--android:id="@+id/cc"-->
+        <!--android:title="帮助与反馈"-->
+        <!--android:icon="@drawable/tab_weixin_normal">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/ss"-->
+                <!--android:title="帮助与反馈"-->
+                <!--android:icon="@drawable/tab_weixin_normal" />-->
+            <!--<item-->
+                <!--android:id="@+id/sccs"-->
+                <!--android:title="帮助与反馈"-->
+                <!--android:icon="@drawable/tab_weixin_normal" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

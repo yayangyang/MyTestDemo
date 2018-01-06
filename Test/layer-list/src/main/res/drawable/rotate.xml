@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!--旋转的时候，只需要给出 起始的角度（ fromdegress ）即可。-->
+    <item>
+        <rotate android:fromDegrees="-10" android:pivotX="0"
+                android:pivotY="0">
+            <bitmap android:src="@drawable/ic_launcher"/>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="10" android:pivotX="0"
+                android:pivotY="0">
+            <bitmap android:src="@drawable/ic_launcher"/>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="30" android:pivotX="0"
+                android:pivotY="0">
+            <bitmap android:src="@drawable/ic_launcher"/>
+        </rotate>
+    </item>
+
+
+</layer-list>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/change_tovoice_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_menu_allfriends"
+        android:background="@drawable/change_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"/>
+
+    <EditText
+        android:id="@+id/id_wbk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:padding="5dp"
+        android:minHeight="0dp"
+        android:hint="请输入内容.."
+        android:textColor="#727272"
+        android:background="@drawable/btn_recorder_normal" />
+
+    <ImageView
+        android:id="@+id/change_todazi_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu_emoticons"
+        android:background="@drawable/change_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:visibility="gone"/>
+
+    <mobiesafe74.itheima.com.immoc_recorder.view.AudioRecorderButton
+        android:id="@+id/id_recorder_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:padding="5dp"
+        android:minHeight="0dp"
+        android:text="@string/str_recorder_normal"
+        android:textColor="#727272"
+        android:background="@drawable/btn_recorder_normal"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/fasong"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/send_btn"
+        android:layout_marginLeft="340dp"
+        android:layout_gravity="center_vertical"
+        android:text="发送"
+        android:textColor="#000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+</FrameLayout>
